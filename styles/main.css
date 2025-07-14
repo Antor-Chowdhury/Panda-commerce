@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* Nav Section Styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-parent{
+    position: relative;
+}
+
+.search-parent input {
+    background-color: rgb(241, 241, 241);;
+    border-radius: 66px;
+    width: 508.94px;
+    padding: 12px 30px;
+    border: none;
+}
+
+.search-parent i {
+    /* font-size: 40px; */
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    color: #BABABA;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: #707070;
+    font-weight: 500px;
+    font-size: 16px;
+}
