@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -213,4 +214,34 @@ nav {
 .backpack-img img{
     width: 290px;
     height: 290px;
+}
+
+/* Contact us section */
+
+.contact-us-parent{
+    background: rgb(255, 242, 241);
+    height: 455px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 146px 265px;
+    border: none;
+    margin: 71px auto;
+}
+
+.contact-inp-btn-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-inp-btn-parent input{
+    border: none;
+    padding: 20px;
+    width: 550px;
+}
+
+.contact-inp-btn-parent .panda-btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 73px;
+    width: 157px;
 }
