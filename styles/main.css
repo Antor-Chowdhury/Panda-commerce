@@ -33,6 +33,33 @@ nav {
     padding-top: 20px;
 }
 
+.product-li{
+    position: relative;
+}
+
+.dropdown-nav-items{
+    position: absolute;
+    list-style: none;
+    top: 30%;
+    background-color: white;
+    width: 150px;
+    border-radius: 0 0 15px 15px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 0px 8px 0px rgba(0,0,0,0.75);
+    visibility: hidden;
+}
+
+.product-li:hover .dropdown-nav-items{
+    visibility: visible;
+    top: 100%;
+    transition: 0.5s;
+}
+
+.dropdown-nav-items li{
+    margin: 5px 0;
+}
+
 .search-parent{
     position: relative;
 }
@@ -193,6 +220,7 @@ nav {
     border-radius: 20px;
     text-align: center;
     padding: 25px;
+    box-shadow: 2px 0px 8px 0px rgba(0,0,0,0.75);
 }
 
 .card-price{
