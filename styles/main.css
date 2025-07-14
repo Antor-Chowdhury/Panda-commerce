@@ -1,5 +1,8 @@
+/* Common CSS */
+
 *{
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 .container{
@@ -7,11 +10,21 @@
     margin: auto;
 }
 
+.panda-btn{
+    border-radius: 6px; 
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    padding: 14px 20px;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
 /* Nav Section Styles */
 
 nav {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
 }
 
 .search-parent{
@@ -45,4 +58,38 @@ nav {
     color: #707070;
     font-weight: 500px;
     font-size: 16px;
+}
+
+/* Banner Section Styles */
+.banner {
+    background-color: #FEEAE9;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: center;
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.banner h2{
+    color: rgb(31, 31, 31);
+    font-size: 56px; 
+    font-weight: 700;
+}
+.banner p{
+    color: #4E4E4E;
+    max-width: 456px;   
+}
+.banner img {
+    width: 402px;
+    height: 378px;
+}
+.banner-price{
+    color: #FF136F;
+    font-weight: bold;
+    font-size: 41px;
+    display: block;
+}
+.panda-btn i {
+    margin-left: 10px;
 }
